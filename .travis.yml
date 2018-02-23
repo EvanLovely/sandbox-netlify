@@ -3,4 +3,5 @@ php:
   - 7.0
 
 script:
+  - node show-vars.js
   - composer run build && ./deploy.sh
