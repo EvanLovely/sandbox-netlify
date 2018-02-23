@@ -3,4 +3,4 @@ php:
   - 7.0
 
 script:
-  - composer run build
+  - composer run build && ./deploy.sh
