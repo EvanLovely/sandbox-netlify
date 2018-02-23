@@ -1,0 +1,16 @@
+{
+    "name": "evan/sandbox-netlify",
+    "authors": [
+        {
+            "name": "Evan Lovely",
+            "email": "evanlovely@gmail.com"
+        }
+    ],
+    "scripts": {
+      "build": "mkdir dist && cp -r src/ dist"
+    },
+    "require": {
+        "php": ">=7.0",
+        "twig/twig": "^1.35.0"
+    }
+}
