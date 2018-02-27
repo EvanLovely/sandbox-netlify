@@ -1,0 +1,23 @@
+{
+  "name": "sandbox-netlify",
+  "version": "1.0.0",
+  "description": "Just playing around with Netlify, nothing to see here...",
+  "main": "helper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EvanLovely/sandbox-netlify.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EvanLovely/sandbox-netlify/issues"
+  },
+  "homepage": "https://github.com/EvanLovely/sandbox-netlify#readme",
+  "dependencies": {
+    "node-fetch": "^2.0.0"
+  }
+}

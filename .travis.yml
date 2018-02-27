@@ -2,6 +2,13 @@ language: php
 php:
   - 7.0
 
+before_install:
+  - nvm install 8.9
+
+install:
+  - composer install
+  - npm install
+
 script:
-  - node show-vars.js
-  - composer run build && ./deploy.sh
+  # - node show-vars.js
+  - composer run build && ./deploy.sh && node helper.js
