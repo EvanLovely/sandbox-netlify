@@ -4,6 +4,7 @@ php:
 
 before_install:
   - nvm install 8.9
+  - node show-vars.js
 
 install:
   - composer install
